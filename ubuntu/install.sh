@@ -65,6 +65,12 @@ sudo apt-get install apache2
 sudo apt-get install libapache2-mod-php5 php5
 sudo apt-get install mysql-server mysql-client
 
+# install yaf
+sudo add-apt-repository ppa:mikespook/php5-yaf
+sudo apt-get update
+sudo apt-get install php5-yaf
+sudo service apache2 restart
+
 # adjust display light
 sudo vim /etc/rc.local
 :<<\EOF
