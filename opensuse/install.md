@@ -1,14 +1,18 @@
 # git
-sudo zypper in git
+zypper in git
 # subversion
-sudo zypper in subversion
+zypper in subversion
 # zsh
-sudo zypper in zsh
+zypper in zsh
 # emacs
-sudo zypper in emacs
+zypper in emacs
 # idea
+wget http://idea.com
+cp idea /usr/local/share/
 # maven2
+wget http://maven2.com
 # apache-tomcat
+wget http://tomcat.com
 
 # apache
 zypper install apache2 
@@ -39,3 +43,5 @@ zypper in http://gmg137.googlecode.com/files/pidgin-lwqq-1.0c-1.1.x86_64.rpm
 zypper in --force http://gmg137.googlecode.com/files/pidgin-lwqq-1.0c-1.1.x86_64.rpm
 zypper install pidgin
 # vbox
+zypper remove vbox-gtk
+zypper in vbox-qt
